@@ -233,8 +233,32 @@ nav ul li a:hover {
 .project-member p {
     font-size: 1.1em;
 }
+/* Technical documents section */
+.technical-docs {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    max-width: 900px;
+    margin: 0 auto;
+}
 
-.reflection-link {
+.technical-docs {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.technical-docs h3 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.technical-docs p {
+    font-size: 1.1em;
+}
+
+.docs-link {
     display: inline-block;
     margin-top: 10px;
     background-color: #4CAF50;
@@ -244,7 +268,20 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-.reflection-link:hover {
+.docs-link:hover {
+    background-color: #45a049;
+}
+.docs-link {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.docs-link:hover {
     background-color: #45a049;
 }
 
