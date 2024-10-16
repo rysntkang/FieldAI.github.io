@@ -209,6 +209,46 @@ nav ul li a:hover {
     background-color: #45a049;
 }
 
+/* Project Members Section */
+.project-members {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.project-member {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.project-member h3 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.project-member p {
+    font-size: 1.1em;
+}
+
+.reflection-link {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.reflection-link:hover {
+    background-color: #45a049;
+}
+
+
 /* Footer */
 footer {
     background-color: #333;
