@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #4CAF50;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #fff;
+    color: #4CAF50;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #ddd;
+}
+
+/* Milestones Section */
+.milestones {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.milestones ul {
+    list-style: none;
+    padding: 0;
+}
+
+.milestones ul li {
+    font-size: 1.2em;
+    padding: 10px 0;
+}
+
+/* Timeline Section */
+.timeline {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.timeline ul {
+    list-style: none;
+    padding: 0;
+}
+
+.timeline ul li {
+    font-size: 1.2em;
+    padding: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
