@@ -233,7 +233,7 @@ nav ul li a:hover {
 .project-member p {
     font-size: 1.1em;
 }
-.reflections-link {
+.reflection-link {
     display: inline-block;
     margin-top: 10px;
     background-color: #4CAF50;
@@ -243,10 +243,10 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-.reflections-link:hover {
+.reflection-link:hover {
     background-color: #45a049;
 }
-.reflections-link {
+.reflection-link {
     display: inline-block;
     margin-top: 10px;
     background-color: #4CAF50;
@@ -256,7 +256,7 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-.reflections-link:hover {
+.reflection-link:hover {
     background-color: #45a049;
 }
 /* Technical documents section */
