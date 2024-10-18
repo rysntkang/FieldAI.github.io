@@ -267,7 +267,7 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 
-.technical-docs {
+.technical-doc {
     background-color: white;
     border: 1px solid #ddd;
     padding: 20px;
@@ -275,12 +275,12 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-.technical-docs h3 {
+.technical-doc h3 {
     font-size: 1.6em;
     margin-bottom: 10px;
 }
 
-.technical-docs p {
+.technical-doc p {
     font-size: 1.1em;
 }
 
