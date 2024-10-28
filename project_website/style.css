@@ -41,6 +41,16 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/*Home Page Elements*/
+
 /* Project Description Section */
 .project-description {
     background-color: #4CAF50;
@@ -170,7 +180,37 @@ nav ul li a:hover {
     padding: 10px 0;
 }
 
-/* Meeting Minutes Section */
+/* Web App Preview Section */
+.webapp {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.webapp ul {
+    list-style: none;
+    padding: 0;
+}
+
+.webapp ul li {
+    font-size: 1.2em;
+    padding: 10px 0;
+}
+
+.webapp .cta-button {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.webapp .cta-button:hover {
+    background-color: #45a049;
+}
+
+/* Meeting Minutes Page Elements */
 .meeting-minutes {
     padding: 40px 20px;
     background-color: #f9f9f9;
@@ -208,6 +248,8 @@ nav ul li a:hover {
 .meeting-link:hover {
     background-color: #45a049;
 }
+
+/*Members Page Elements*/
 
 /* Project Members Section */
 .project-members {
@@ -259,7 +301,8 @@ nav ul li a:hover {
 .reflection-link:hover {
     background-color: #45a049;
 }
-/* Technical documents section */
+
+/* Technical Documents Section */
 .technical-docs {
     padding: 40px 20px;
     background-color: #f9f9f9;
@@ -307,12 +350,3 @@ nav ul li a:hover {
     background-color: #45a049;
 }
 
-
-/* Footer */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-}
