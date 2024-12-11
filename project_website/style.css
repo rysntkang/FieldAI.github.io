@@ -51,6 +51,29 @@ footer {
 
 /*Home Page Elements*/
 
+/* Expected Section */
+.expected {
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.expected .content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.expected ul {
+    list-style: none;
+    padding: 0;
+}
+
+.expected ul li {
+    font-size: 1.2em;
+    padding: 10px 0;
+}
+
 /* Project Description Section */
 .project-description {
     background-color: #4CAF50;
